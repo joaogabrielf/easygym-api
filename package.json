@@ -1,0 +1,35 @@
+{
+  "name": "easygym",
+  "version": "1.0.0",
+  "description": "EasyGym is an app where the subscriber user can use several registered gyms.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "1.2.0",
+    "@types/bcryptjs": "2.4.2",
+    "@types/node": "18.15.11",
+    "eslint": "8.38.0",
+    "prisma": "4.12.0",
+    "tsup": "6.7.0",
+    "tsx": "3.12.6",
+    "typescript": "5.0.4",
+    "vite-tsconfig-paths": "4.2.0",
+    "vitest": "0.30.1"
+  },
+  "dependencies": {
+    "@prisma/client": "4.12.0",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.0.3",
+    "fastify": "4.15.0",
+    "zod": "3.21.4"
+  }
+}
