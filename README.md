@@ -5,7 +5,7 @@ EasyGym is an app where the subscriber user can use several registered gyms.
 ## FRs (Functional Requirements)
 
 - [X] Should be able to register
-- [ ] Should be able to authenticate
+- [X] Should be able to authenticate
 - [ ] Should be able to show user's profile from authenticated user
 - [ ] Should be able to show total number of user's check-ins
 - [ ] Should be able for the user to show all his past check-ins
