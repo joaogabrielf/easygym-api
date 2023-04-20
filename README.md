@@ -20,7 +20,7 @@ EasyGym is an app where the subscriber user can use several registered gyms.
 
 - [X] User should not be able to register with an email already registered
 - [X] User should not be able to check-in twice in the same day
-- [ ] User should not be able to check-in if he is farther than 100m from the gym
+- [X] User should not be able to check-in if he is farther than 100m from the gym
 - [ ] Check-in can only be validate up to 20 minutes after registration
 - [ ] Check-in can only be validate by admin
 - [ ] Gym can only be registered by admin
