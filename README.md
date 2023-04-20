@@ -13,7 +13,7 @@ EasyGym is an app where the subscriber user can use several registered gyms.
 - [ ] Should be able for the user to search a gym by the name
 - [X] Should be able for the user to check-in in a gym
 - [ ] Should be able to validate the check-in from the user
-- [ ] Should be able to register a gym
+- [X] Should be able to register a gym
 
 
 ## BRs (Business Rules)
