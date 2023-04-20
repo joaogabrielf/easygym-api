@@ -7,10 +7,10 @@ EasyGym is an app where the subscriber user can use several registered gyms.
 - [X] Should be able to register
 - [X] Should be able to authenticate
 - [X] Should be able to show user's profile from authenticated user
-- [ ] Should be able to show total number of user's check-ins
-- [ ] Should be able for the user to show all his past check-ins
+- [X] Should be able to show total number of user's check-ins
+- [X] Should be able for the user to show all his past check-ins
 - [ ] Should be able for the user to search gyms in the proximity
-- [ ] Should be able for the user to search a gym by the name
+- [X] Should be able for the user to search a gym by the name
 - [X] Should be able for the user to check-in in a gym
 - [ ] Should be able to validate the check-in from the user
 - [X] Should be able to register a gym
@@ -28,5 +28,5 @@ EasyGym is an app where the subscriber user can use several registered gyms.
 ## NFRs (Non Functional Requirements)
 - [X] User's password must be cryptographed
 - [X] Apps data must be stored in a PostgreSQL database
-- [ ] All data list must be in a page with 20 max by page
+- [X] All data list must be in a page with 20 max by page
 - [ ] User must be identified by a JWT (Json Web Token)
