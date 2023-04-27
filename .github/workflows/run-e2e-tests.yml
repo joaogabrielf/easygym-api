@@ -7,6 +7,16 @@ jobs:
     name: Run E2E Tests
     runs-on: ubuntu-latest
 
+    services:
+      postgres:
+        image: bitnami/postgresql
+        ports:
+          - 5432:5432
+        env:
+          POSTGRESQL_USERNAME: docker
+          POSTGRESQL_PASSWORD: docker
+          POSTGRESQL_DATABASE: apieasygym
+
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -17,3 +27,6 @@ jobs:
       - run: npm ci
 
       - run: npm run test:e2e
+        env:
+          JWT_SECRET: secret-test
+          DATABASE_URL: "postgresql://docker:docker@localhost:5432/apieasygym?schema=public"
