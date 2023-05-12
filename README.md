@@ -7,9 +7,13 @@
 
 # EasyGym
 
-RentalX is a RESTful API for managing car rentals. It provides a robust and scalable solution for car rental companies to manage their fleets, customers, reservations, and rental contracts. The API is built using Node.js, TypeScript, TypeORM, Express and PostgreSQL database
+EasyGym-API is an open-source project that provides a simple and intuitive REST API for managing gym members, workouts, and schedules from the gym perspective and check-in in any registered gym from users perspective. The API is built using Node.js and Fastify, and uses a PostgreSQL database for data storage.
 
-The API provides a wide range of functionalities, including registering users, authenticating users, managing cars, managing categories, managing specifications, managing rentals, generating rental invoices, and more. It follows the best practices of RESTful API design, ensuring a clear separation of concerns, modularity, scalability, and ease of maintenance.
+With EasyGym-API, developers can easily build gym management applications and integrate them with their own systems. The API allows for the creation, updating, and deletion of gym members, workouts, and schedules, as well as the retrieval of data for reporting and analysis.
+
+The project includes detailed documentation and examples for using the API, as well as a set of tests to ensure the reliability and stability of the code. It also includes a Dockerfile for easy deployment and scaling of the API.
+
+Whether you're a gym owner looking to build a custom management system, or a developer building a fitness app, EasyGym-API provides a flexible and easy-to-use solution for managing gym data.
 
 ## Prerequisites
 
